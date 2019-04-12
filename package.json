@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "mapbox-gl": "^0.53.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-mapbox-gl": "^4.2.1",
     "react-scripts": "2.1.8"
   },
   "scripts": {

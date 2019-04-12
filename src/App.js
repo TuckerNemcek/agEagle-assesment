@@ -1,6 +1,6 @@
 import React from 'react'
 import Titles from './components/Titles'
-import Form from './components/Form'
+import Map from './components/Map'
 import Weather from './components/Weather'
 
 const weatherAPI_KEY = '63bff92f1ebd113efe2539601d47425c'
@@ -16,6 +16,8 @@ class App extends React.Component {
     description: undefined,
     error: undefined
   }
+
+
 
   getWeather = async (e) => {
     e.preventDefault()
@@ -60,8 +62,8 @@ render() {
               <div className="col-xl-5 title-container">
                 <Titles />
               </div>
-              <div className="col-xl-7 form-container">
-                <Form getWeather={this.getWeather} />
+              <div className="col-xl-7 Map-container">
+                <Map getWeather={this.getWeather} />
                 <Weather
                   temperature={this.state.temperature}
                   humidity={this.state.humidity}
