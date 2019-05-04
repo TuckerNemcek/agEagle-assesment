@@ -57,7 +57,7 @@ render() {
     <div>
       <div className="wrapper">
         <div className="main">
-          <div className="container">
+          <div className="">
             <div className="row ">
               <div className="col-xl-5 title-container">
                 <Titles />

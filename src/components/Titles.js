@@ -3,8 +3,8 @@ import React from "react";
 
 const Titles = () => (
 	<div>
-		<h1 className="title-container__title">Weather Finder</h1>
-		<h3 className="title-container__subtitle">Find out temperature, conditions and more...</h3>
+		<h1 className="title-container__title">A map site made by Tucker Nemcek</h1>
+		<h3 className="title-container__subtitle">I enjoy working with map APIs. This was just a fun project to make a good looking map site. It's interactive, feel free to scrol and drag your way around! </h3>
 	</div>
 );
 

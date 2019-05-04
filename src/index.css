@@ -7,6 +7,11 @@ body {
   font-family: "Open Sans", serif;
 }
 
+.Map-container {
+margin-left: -10px;
+padding-right: 10px;
+}
+
 .wrapper {
   background: linear-gradient(to right, #e67e22, #e74c3c);
   height: 100vh;
