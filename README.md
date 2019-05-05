@@ -2,6 +2,8 @@
 
 This is a personal project of mine. I wanted to use React.js styling to make a good looking interactive map.
 
+Check out the deployed site [here](http://tucker-map.surge.sh/)
+
 ## If you would like to download this app for yourself
 
 You will need Node.js and a text editor of your choice.
