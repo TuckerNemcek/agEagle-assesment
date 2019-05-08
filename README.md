@@ -17,6 +17,7 @@ $ git clone https://github.com/TuckerNemcek/agEagle-assesment.git
 Naviage inside your prefered directory and run :
 
 $ npm install
+
 $ npm start
 
 The application will then run
